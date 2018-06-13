@@ -7,5 +7,7 @@ In order to run you will need to preform a couple steps
 
 
 Note You must put the directory in ""
+
+
 3. To run NanoGUI you will run the NanoGUI.ps1 file from powershell. 
 
