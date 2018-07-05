@@ -1,4 +1,4 @@
-ÔªøFunction Creating_DC 
+Function Creating_DC 
 {
 Install-WindowsFeature AD-Domain-Services -IncludeAllSubFeature -IncludeManagementTools 
 #Do {
@@ -54,7 +54,7 @@ Write-host "2: No" -ForegroundColor Red
 $Install_ADDS_Confirm = Read-Host
 } while ((1..2) -notcontains $Install_ADDS_Confirm)
 if ($Install_ADDS_Confirm -eq 1) {
-    Install-ADDSForest -DatabasePath "$Databasepath" -DomainName ‚Äú$Domain_Name‚Äù -DomainNetbiosName ‚Äú$Netbiosname‚Äù -LogPath ‚Äú$Log_Path‚Äù -NoRebootOnCompletion:$false -SysvolPath ‚Äú$SYSVOL‚Äù -Force:$true
+    Install-ADDSForest -DatabasePath "$Databasepath" -DomainName ì$Domain_Nameî -DomainNetbiosName ì$Netbiosnameî -LogPath ì$Log_Pathî -NoRebootOnCompletion:$false -SysvolPath ì$SYSVOLî -Force:$true
 }   elseif ($Install_ADDS_Confirm -eq 2){
     Creating_DC
 }

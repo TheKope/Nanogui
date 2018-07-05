@@ -1,4 +1,4 @@
-﻿Function creategroup_PS 
+Function creategroup_PS 
 {
 write-host "New-ADGroup -Name ("$Group_Name") -DisplayName- ($Group_Name) -SamAccountName ($Group_Name) -GroupCategory ($Group_Cat) -GroupScope ($Group_scope) -Path ("$Group_Path")"
 	#Example : New-ADGroup -Name "Research-Thekope" -SamAccountName Research-Thekope -GroupCategory Security -GroupScope DomainLocal -Path "OU=RESEACH, DC=NUGGETLAB, DC=COM"

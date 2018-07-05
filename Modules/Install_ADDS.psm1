@@ -1,4 +1,4 @@
-﻿Function Install_ADDS 
+Function Install_ADDS 
 {
 Do {
 cls

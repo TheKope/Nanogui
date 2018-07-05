@@ -1,13 +1,12 @@
-﻿Function Choose_Par 
+Function Choose_Par 
 {
 Do {
-
-Write-host "Where do you want to go"
-write-host "1: Create a new department/Orginazational Unit."
-write-host "2: Create a new Group"
-write-host "3: Create a new User"
-write-host "4: See current Active Directory infrastructure"
-Write-host "5: See changes made this session"
+Write-host "Where do you want to go
+1: Create a new department/Orginazational Unit.
+2: Create a new Group
+3: Create a new Use
+4: See current Active Directory infrastructure
+5: See changes made this session"
 $choice = Read-Host "1-5" 
 } while ((1..5) -notcontains $choice)
 if ($choice -eq 1) {

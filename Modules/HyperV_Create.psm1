@@ -1,4 +1,4 @@
-﻿Function hyperV_create 
+Function hyperV_create 
 {
 cls
 Write-host "Creating a Virtual Machhine!" -ForegroundColor red
